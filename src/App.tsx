@@ -1,4 +1,5 @@
-import Toolbar from './Toolbar/Toolbar.tsx';
+import Toolbar from './components/Toolbar/Toolbar.tsx';
+import About from './components/About/About.tsx';
 
 function App() {
 
@@ -8,7 +9,7 @@ function App() {
         <Toolbar/>
       </header>
       <main>
-
+        <About/>
       </main>
     </>
   );
