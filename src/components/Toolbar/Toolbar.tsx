@@ -1,5 +1,6 @@
 import React from 'react';
 import reactLogo from '../../images/ic-react.png';
+import {NavLink} from 'react-router-dom';
 
 const Toolbar: React.FC = () => {
   return (
@@ -15,13 +16,15 @@ const Toolbar: React.FC = () => {
         </div>
       </div>
 
-
       <ul className="navbar-nav mr-auto flex-row flex-nowrap gap-3">
         <li className="nav-item">
-          <a href="#" className="nav-link">About</a>
+          <NavLink to="/about" className="nav-link">Обо Мне</NavLink>
         </li>
         <li className="nav-item">
-          <a href="#" className="nav-link">Contacts</a>
+          <NavLink to="/events" className="nav-link">События</NavLink>
+        </li>
+        <li className="nav-item">
+          <NavLink to="/contacts" className="nav-link">Контакты</NavLink>
         </li>
       </ul>
 

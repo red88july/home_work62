@@ -1,11 +1,5 @@
 import React from 'react';
 import MyPhoto from '../../uploads/myphoto.png';
-import CcnaExploration from '../../uploads/ciscoExploration.png';
-import InTech2019 from '../../uploads/inTech2019.png';
-import Exhibition from '../../uploads/Exihibition2018.png';
-import GreeLightRecharge from '../../uploads/greenLightITrecharge.png';
-import Line from '../../images/linedot.png';
-import '../../styles.css';
 
 const About: React.FC = () => {
   return (
@@ -40,42 +34,7 @@ const About: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className=" container-fluid text-center mt-3">
-        <h2 className="m-0">Участие в мероприятиях</h2>
-        <img src={Line} alt="Arrow line"/>
-      </div>
-      <div className="d-flex justify-content-evenly mt-5 container-fluid">
-        <div className="card">
-          <img src={CcnaExploration} className="card-img-top" alt="..."/>
-          <div className="card-body">
-            <p className="card-text">Торжественная выдача сертификатов о прохождении курсов Cisco CCNA Exploration в
-              новом
-              кампусе American University of Central Asia.</p>
-          </div>
-        </div>
-        <div className="card" style={{width: '20rem'}}>
-          <img src={InTech2019} className="card-img-top" alt="..."/>
-          <div className="card-body">
-            <p className="card-text">Посещение выставки In Tech 2019 от компании Softline, посвещенной новым
-              информационным технологиям</p>
-          </div>
-        </div>
-        <div className="card" style={{width: '20rem'}}>
-          <img src={Exhibition} className="card-img-top" alt="..."/>
-          <div className="card-body">
-            <p className="card-text">Выставка, World Press Photo 2018, посвященная лучшим фотографиям журналистов со
-              всего мира.
-              Мероприятие проводилось в новом кампусе American University of Central Asia.</p>
-          </div>
-        </div>
-        <div className="card" style={{width: '20rem'}}>
-          <img src={GreeLightRecharge} className="card-img-top" alt="..."/>
-          <div className="card-body">
-            <p className="card-text">Семинар Recharge IT от компании GreenLight, посвященный новым решениям в области
-              сетевых технологий</p>
-          </div>
-        </div>
-      </div>
+
     </>
 
   );

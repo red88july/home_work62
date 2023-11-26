@@ -5,6 +5,7 @@
   background-position-x: -23px;
   background-position-y: -21px;
 }
+
 .card {
   width: 20rem;
   transition: 1s;
@@ -15,10 +16,95 @@
 }
 
 .line-bg {
-  background-image: url("../src/images/line.png");
+  background-image: url("../src/images/linedot.png");
   background-repeat: no-repeat;
   background-size: 77%;
   background-position-x: -23px;
   background-position-y: -21px;
 }
 
+.pic-notfound {
+  width: 800px;
+  height: 800px;
+}
+
+.pic-container {
+  text-align: center;
+}
+
+q {
+  quotes: '<<' '>>';
+  color: #744cc6
+}
+
+.container-description {
+  padding: 0 0 0 120px;
+}
+
+.container-contact {
+  width: 450px;
+  height: auto;
+  padding: 20px;
+}
+
+.ic-facebook {
+  content: url("./images/ic-facebook.png");
+  width: 100px;
+  height: 100px;
+}
+
+.ic-linkedin {
+  content: url("./images/ic-linkedin.png");
+  width: 100px;
+  height: 100px;
+}
+
+.ic-instagram {
+  content: url("./images/ic-instagram.png");
+  width: 100px;
+  height: 100px;
+}
+
+.ic-email {
+  display: inline-block;
+  padding-left: 55px;
+  padding-bottom: 15px;
+  background-image: url("./images/ic-email.png");
+  background-repeat: no-repeat;
+  background-size: 7%;
+  background-position: left 95px top -3px;
+}
+
+.ic-phone {
+  display: block;
+  padding-left: 55px;
+  padding-bottom: 15px;
+  background-image: url("./images/ic-phone.png");
+  background-repeat: no-repeat;
+  background-size: 7%;
+  background-position: left 95px top -3px;
+}
+
+.ic-facebook:hover {
+  transform: scale(1.1);
+}
+
+.ic-linkedin:hover {
+  transform: scale(1.1);
+}
+
+.ic-instagram:hover {
+  transform: scale(1.1);
+}
+
+.ic-facebook:active {
+  transform: scale(0.9);
+}
+
+.ic-linkedin:active {
+  transform: scale(0.9);
+}
+
+.ic-instagram:active {
+  transform: scale(0.9);
+}
