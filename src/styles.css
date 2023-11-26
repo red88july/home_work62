@@ -1,0 +1,24 @@
+.box-style {
+  background-image: url("../src/images/koy6.jpg");
+  background-repeat: no-repeat;
+  background-size: 77%;
+  background-position-x: -23px;
+  background-position-y: -21px;
+}
+.card {
+  width: 20rem;
+  transition: 1s;
+}
+
+.card:hover {
+  transform: scale(1.2);
+}
+
+.line-bg {
+  background-image: url("../src/images/line.png");
+  background-repeat: no-repeat;
+  background-size: 77%;
+  background-position-x: -23px;
+  background-position-y: -21px;
+}
+
