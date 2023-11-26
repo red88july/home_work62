@@ -1,6 +1,7 @@
 import React from 'react';
 import reactLogo from '../../images/ic-react.png';
 import {NavLink} from 'react-router-dom';
+import '../../styles.css';
 
 const Toolbar: React.FC = () => {
   return (
@@ -16,7 +17,7 @@ const Toolbar: React.FC = () => {
         </div>
       </div>
 
-      <ul className="navbar-nav mr-auto flex-row flex-nowrap gap-3">
+      <ul className="navbar-nav mr-auto flex-row flex-nowrap align-items-center justify-content-center gap-3">
         <li className="nav-item">
           <NavLink to="/about" className="nav-link">Обо Мне</NavLink>
         </li>
@@ -25,6 +26,9 @@ const Toolbar: React.FC = () => {
         </li>
         <li className="nav-item">
           <NavLink to="/contacts" className="nav-link">Контакты</NavLink>
+        </li>
+        <li className="nav-item">
+          <NavLink to="/portfolio" className="nav-link ic-portfolio">Портфолио</NavLink>
         </li>
       </ul>
 

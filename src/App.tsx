@@ -5,7 +5,7 @@ import EventsPage from './containers/EventsPage/EventsPage.tsx';
 import PageNoFoundPicture from '../src/images/404PageNotFound.jpg';
 import ContactsPage from './containers/ContactsPage/ContactsPage.tsx';
 import './styles.css';
-
+import PortfolioPage from './containers/PortfolioPage/PortfolioPage.tsx';
 
 function App() {
 
@@ -15,8 +15,6 @@ function App() {
         <Toolbar/>
       </header>
       <main>
-
-
         <Routes>
           <Route path="/about" element={(
             <AboutPage />
@@ -26,6 +24,9 @@ function App() {
           )}/>
           <Route path="/contacts" element={(
             <ContactsPage />
+          )}/>
+          <Route path="/portfolio" element={(
+            <PortfolioPage />
           )}/>
           <Route path="*" element={(
             <div className="container-fluid pic-container">

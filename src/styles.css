@@ -47,6 +47,16 @@ q {
   padding: 20px;
 }
 
+.style-country {
+  width: 50vw;
+  height: 40vh;
+}
+
+.click-portoflo {
+  width: 450px;
+  height: 150px;
+}
+
 .ic-facebook {
   content: url("./images/ic-facebook.png");
   width: 100px;
@@ -63,6 +73,10 @@ q {
   content: url("./images/ic-instagram.png");
   width: 100px;
   height: 100px;
+}
+
+.ic-portfolio {
+  content: url("./images/ic-portfolio.png");
 }
 
 .ic-email {
@@ -97,6 +111,14 @@ q {
   transform: scale(1.1);
 }
 
+.ic-portfolio:hover {
+  transform: scale(1.1);
+}
+
+.ic-portfolio:active {
+  transform: scale(0.9);
+}
+
 .ic-facebook:active {
   transform: scale(0.9);
 }
@@ -106,5 +128,13 @@ q {
 }
 
 .ic-instagram:active {
+  transform: scale(0.9);
+}
+
+.btn-port:hover {
+  transform: scale(1.1);
+}
+
+.btn-port:active {
   transform: scale(0.9);
 }
